@@ -22,4 +22,6 @@ class Track(Lane):
     """Mixer channel used for the output of this track."""
 
     tracks: list["Track"] = field(default_factory=list)
-    """Child tracks, typically used to represent group/folder tracks with contentType="tracks"."""
+    """Child tracks, typically used to represent group/folder tracks with
+    contentType="tracks".
+    """

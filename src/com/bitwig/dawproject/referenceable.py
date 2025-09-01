@@ -34,7 +34,8 @@ class Referenceable(Nameable):
         """Enable automatic creation of XML IDs. Resets the IDs as well to 0.
 
         Args:
-            enable: True to enable automatic ID creation for all instances of Referenceable
+            enable: True to enable automatic ID creation for all instances of
+                Referenceable
         """
         global _enable_auto_id, _id_counter
         _enable_auto_id = enable

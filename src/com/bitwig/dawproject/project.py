@@ -28,7 +28,9 @@ class Project:
     """Metadata (name/version) about the application that saved this file."""
 
     transport: Optional[Transport] = None
-    """Transport element containing playback parameters such as Tempo and Time-signature."""
+    """Transport element containing playback parameters such as Tempo and
+    Time-signature.
+    """
 
     structure: list[Lane] = field(default_factory=list)
     """Track/Channel structure of this file."""

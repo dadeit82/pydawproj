@@ -9,7 +9,9 @@ from .time_signature_parameter import TimeSignatureParameter
 
 @dataclass
 class Transport:
-    """Transport element containing playback parameters such as Tempo and Time-signature."""
+    """Transport element containing playback parameters such as Tempo and
+    Time-signature.
+    """
 
     tempo: Optional[RealParameter] = None
     """Tempo parameter for setting and/or automating the tempo."""
