@@ -6,10 +6,10 @@ from typing import Optional
 
 def double_to_string(value: Optional[float]) -> Optional[str]:
     """Convert a double value to string, handling infinity constants.
-    
+
     Args:
         value: The double value to convert
-        
+
     Returns:
         String representation of the value
     """
@@ -22,10 +22,10 @@ def double_to_string(value: Optional[float]) -> Optional[str]:
 
 def string_to_double(value: Optional[str]) -> Optional[float]:
     """Convert a string to double value, handling infinity constants.
-    
+
     Args:
         value: The string value to convert
-        
+
     Returns:
         Double representation of the value
     """
